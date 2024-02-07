@@ -1,0 +1,20 @@
+@font-face{
+    font-family: ;
+    src: url();
+}
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+.header {
+    width: 1440;
+    height: 172;
+    background: #0F2B0B 73% ;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Young Serif';
+
+}
+
+h2 {
+    color: #FFFFFF;
+}
