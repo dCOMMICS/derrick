@@ -3,18 +3,23 @@
     src: url();
 }
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .header {
-    width: 1440;
-    height: 172;
-    background: #0F2B0B 73% ;
-}
+  background: #23424a;
+  color: white;
 
-h1{
-    color: #FFFFFF;
-    font-family: 'Young Serif';
+  width: 100%;
+  margin: 0 auto;
+  /* overflow: hidden; */
 
-}
-
-h2 {
-    color: #FFFFFF;
+  padding: 2em;
+  height: 300px;
 }
