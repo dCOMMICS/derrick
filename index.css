@@ -1,8 +1,8 @@
-@font-face{
-    font-family: ;
-    src: url();
+@font-face {
+  font-family: ;
+  src: url();
 }
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -24,11 +24,42 @@ body {
   height: 300px;
 }
 
-.header h1{
-    font-size: 4em;
-    font-weight: 900;
+.header h1 {
+  font-size: 4em;
+  font-weight: 900;
 }
 
-.header h2{
+.header h2 {
+  font-weight: 600;
+}
+
+.about-me {
+  background: #F4ECE2;
+  color: white;
+
+  width: 100%;
+  margin: 0 auto;
+  /* overflow: hidden; */
+
+  padding: 2em;
+  height: 300px;
+}
+
+.about-me h1 {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 900;
+
+}
+
+.about-me p {
+    color: black;
+    font-family: sans-serif;
     font-weight: 600;
+
+}
+
+
+.line {
+
 }
