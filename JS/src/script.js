@@ -17,6 +17,10 @@ mesh.position.z = 0.8
 mesh.position.x = -0.1
 scene.add(mesh)
 
+
+// console.log(mesh.position.length())
+
+
 /**
  * Sizes
  */
@@ -31,6 +35,7 @@ const sizes = {
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 camera.position.z = 3
 scene.add(camera)
+console.log(mesh.position.distanceTo(camera.position))
 
 
 /**
