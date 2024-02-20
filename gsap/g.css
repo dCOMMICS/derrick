@@ -13,5 +13,7 @@ html,body{
     height: 300px;
     width: 300px;
     background-color: antiquewhite;
-    box
+    
 }
+
+/* background: linear-gradient(var(--theme-color-lt, var(--color-just-black)),var(--theme-color-lt, var(--color-just-black)))padding-box,var(--gradient-macha)border-box; */
