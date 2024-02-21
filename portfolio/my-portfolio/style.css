@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ranade", sans-serif;
+  /* font-family: "General Sans", sans-serif; */
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+}
