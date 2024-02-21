@@ -1,3 +1,13 @@
+:root {
+  ---clr-dark:  #020617;
+  ---clr-light: #f1f5f9;
+  ---clr-slate400:#94a3b8 ;
+  ---clr-slate600: #475569;
+  ---clr-slate800:#1e293b ;
+  ---clr-rose: #e11d48;
+  ---clr-indigo: #4f46e5;
+}
+
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
@@ -14,6 +24,8 @@ html {
 body {
   font-family: "Ranade", sans-serif;
   /* font-family: "General Sans", sans-serif; */
+  background-color: var(---clr-dark);
+  color: var(---clr-light);
 }
 
 img,
@@ -22,4 +34,6 @@ video,
 canvas,
 svg {
   display: block;
+  max-width: 100%;
+  user-select: none;
 }
