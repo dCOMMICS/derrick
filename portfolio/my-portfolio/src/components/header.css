@@ -25,6 +25,28 @@
 }
 
 
+
+/* https://mega.nz/folder/q01SGCTY#AZ9hOoAiQMN3_e8wZykyow */
+
+/* inspo  
+
+https://uncut.wtf/
+
+ */
+
+/* fonting
+font-family: 'Ranade', sans-serif;
+font-family: 'General Sans', sans-serif;
+font-family: 'Cabinet Grotesk', sans-serif;
+
+
+
+
+<link href="https://api.fontshare.com/v2/css?f[]=ranade@700,500&f[]=general-sans@500,400,700&f[]=cabinet-grotesk@800,500,100,700,400,300,200,900&display=swap" rel="stylesheet">
+
+*/
+
+
 .header_link:hover {
     color: var(--clr-rose);
 }
