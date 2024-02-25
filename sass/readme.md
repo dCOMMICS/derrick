@@ -7,6 +7,7 @@ https://courseflix.net/course/advanced-css-and-sass-flexbox-grid-animations-and-
 https://courseflix.net/course/css-demystified-start-writing-css-with-confidence
 https://courseflix.net/course/node-js-express-mongodb-more-the-complete-bootcamp-2023
 https://uncut.wtf/
+https://blog.vjeux.com/
 
  */
 
