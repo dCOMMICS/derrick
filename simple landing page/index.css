@@ -91,6 +91,34 @@ header {
 }
 
 
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Geist Mono", monospace;
+  background: hsl(0 0% 2%);
+  color-scheme: dark only;
+}
+
+
+body::before {
+	--line: hsl(0 0% 95% / 0.15);
+	--size: 60px;
+	content: "";
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	background:
+		linear-gradient(90deg, var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size),
+		linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size);
+	mask: linear-gradient(-15deg, transparent 30%, white);
+	top: 0;
+	transform-style: flat;
+	pointer-events: none;
+	z-index: -1;
+}
+
+
 
 
 
@@ -112,4 +140,52 @@ html>body>span {
     visibility: hidden!important;
     right: -9999px!important;
     scale: 0;
+}
+
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Geist Mono", monospace;
+  background: hsl(0 0% 2%);
+  color-scheme: dark only;
+}
+
+body::before {
+	--line: hsl(0 0% 95% / 0.15);
+	--size: 60px;
+	content: "";
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	background:
+		linear-gradient(90deg, var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size),
+		linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% / var(--size) var(--size);
+	mask: linear-gradient(-15deg, transparent 30%, white);
+	top: 0;
+	transform-style: flat;
+	pointer-events: none;
+	z-index: -1;
+}
+
+.cursor {
+  height: 30px;
+  width: 30px;
+  background-color: #95c11e;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+}
+
+.cursor-blur {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(150, 193, 30, 0.3);
+  border-radius: 50%;
+  position: fixed;
+  filter: blur(80px);
+  /* z-index: 99; */
+  z-index: 9;
+  /* transition: all linear 0.4s; */
 }
