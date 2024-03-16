@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #0d1335;
     display: grid;
     place-items: center;
@@ -31,4 +31,61 @@ html,body {overflow-x: hidden;}
 
 .container .panel  :nth-child(odd) {
     background : #111114;
+} */
+
+
+:root {
+  --color-bg-1: #FCB935;
+  --color-bg-2: #EB3D44;
+  --color-bg-3: #72B63C;
+}
+
+// Base
+html, body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 400;
+	letter-spacing: -.02em;
+	color: #111;
+	
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+	
+  *, *:before, *:after {
+    box-sizing: border-box;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow-y: auto;
+}
+
+main {
+		position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 1rem;
+	
+	&:not(:first-child) {
+		top: 100%;
+	}
+}
+
+h1, h2 {
+	font-size: 18vw;
+	line-height: .8;
 }
