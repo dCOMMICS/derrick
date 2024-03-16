@@ -6,3 +6,29 @@ body {
 
 
 
+html {
+    overflow: hidden;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+html,body {overflow-x: hidden;}
+
+.container {
+    width: 300%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.panel {
+    position: relative;
+    overflow: hidden;
+    height: inherit;
+    width: 100vw;
+}
+
+.container .panel  :nth-child(odd) {
+    background : #111114;
+}
